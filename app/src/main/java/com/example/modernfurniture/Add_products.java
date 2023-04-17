@@ -31,12 +31,13 @@ public class Add_products extends AppCompatActivity {
 
     ImageView upload;
     Button btnchoose, btnAdd;
-    EditText name,price,type;
+    EditText name, price, type;
     private static final int IMAGE_PICK_CODE = 1000;
     private static final int PERMISSION_CODE = 1001;
     private FirebaseFirestore db;
     private Uri imagedata;
-    StorageReference folder;
+    private StorageReference folder;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
